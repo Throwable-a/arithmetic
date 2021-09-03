@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://47.98.129.93/mydb1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: Xuyiming99..
+    # 使用druid数据源
+    driver-class-name: com.mysql.jdbc.Driver
+    maxWait: 60000
